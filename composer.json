@@ -1,0 +1,28 @@
+{
+    "name": "hari/login",
+    "description": "This package is used to login",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harikrishnan.E",
+            "email": "harikrishnan9256@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "hari\\login\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "hari\\contact\\ContactServiceProvider"
+            ]
+
+        }
+    }
+
+}
