@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "hari\\contact\\ContactServiceProvider"
+                "hari\\login\\ContactServiceProvider"
             ]
 
         }
